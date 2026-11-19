@@ -5,7 +5,7 @@
   <id>tag:dingdian.workers.dev,2026:curated-feed</id>
   <link rel="self" href="https://newsletter-feed.dingdian.workers.dev/curated"/>
   <link href="https://newsletter-feed.dingdian.workers.dev/curated"/>
-  <updated>2026-11-19T05:35:03Z</updated>
+  <updated>2026-11-19T23:25:47Z</updated>
   <author><name>丁點助理精选</name></author>
   <entry>
     <title>为什么人工智能崩盘是意料之中的事</title>
@@ -542,5 +542,31 @@
     <link href="https://www.getzep.com/blog/introducing-zep-agent-skills/"/>
     <content type="html"><![CDATA[<p><strong>来源：</strong>Daniel Chalef</p><p><strong>原文标题：</strong>【Daniel Chalef】The research behind Zep Agent Skills</p><p><strong>入选方向：</strong>10、16</p><p><strong>入选理由：</strong>强模型教弱模型：Agent Skills让便宜模型在26组测试中全部提升4.5–18.8分，低推理成本胜过高推理成本，Agent Skills路线的硬数据。</p><p><strong>原文链接：</strong><a href="https://www.getzep.com/blog/introducing-zep-agent-skills/">https://www.getzep.com/blog/introducing-zep-agent-skills/</a></p><hr/><p>原文链接：https://www.getzep.com/blog/introducing-zep-agent-skills/
 翻译模型：cheap-ai relay（主中转返回HTTP 530，自动切备用 relay2/gpt-6.1-sol；未用 translate.googleapis.com，未用 Muse 额度）</p><p>Zep 公布了智能体技能功能背后的研究：将强模型成功执行任务的经验提炼为可复用技能，帮助低成本模型提升表现。在三项基准测试的全部26种实验配置中，使用技能后，低成本模型的任务通过率提高了4.5至18.8个百分点。在企业运维基准测试中，各模型使用技能并采用低推理强度时，通过的任务数均超过不使用技能且采用最高推理强度的情况。该功能面向所有套餐免费开放至2027年1月4日，用户可升级至第四版开发工具包提交智能体运行记录，或从支持的外部平台导入。</p>]]></content>
+  </entry>
+  <entry>
+    <title>【务实工程师】行业脉动：云平台遭黑客入侵，我们能吸取哪些教训？</title>
+    <id>tag:dingdian.workers.dev,2026:news-the-pragmatic-engineer-the-pulse-what-can-we-learn-from</id>
+    <updated>2026-11-19T18:54:51.000Z</updated>
+    <author><name>The Pragmatic Engineer</name></author>
+    <link href="https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-132"/>
+    <content type="html"><![CDATA[<p><strong>来源：</strong>The Pragmatic Engineer</p><p><strong>原文标题：</strong>【The Pragmatic Engineer】The Pulse: What can we learn from the Railway hack?</p><p><strong>入选方向：</strong>10</p><p><strong>入选理由：</strong>攻击者疑似用无防护AI模型，4阶段24小时内盗走客户AI密钥、造成约74万美元盗刷；做AI基建与智能体安全必须读的实战复盘。</p><p><strong>原文链接：</strong><a href="https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-132">https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-132</a></p><hr/><p>原文链接：https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-132
+翻译模型：cheap-ai relay（内置备用 relay2/gpt-6.1-sol，主中转故障时自动切换；未用 translate.googleapis.com，未用 Muse 额度）</p><p>云平台 Railway 发布入侵事件复盘：攻击者疑似借助移除安全限制的人工智能模型，目标是窃取客户的人工智能服务密钥，可能用于低价转售。攻击者通过构建系统漏洞窃取凭据和代码，再利用部署流程中的身份绑定配置错误逐步取得云环境权限，最终调用密钥管理服务解密客户密钥。此次事件表明，人工智能可能将分析被盗代码、寻找攻击路径的时间压缩至数小时，而且攻击者在被驱逐后仍会持续尝试入侵，令防守方即使只慢几分钟也可能错失阻断机会。Railway 随后加强系统防护，并向相关服务商提供泄露密钥的哈希值以协助吊销密钥，降低客户账户被盗刷的风险。</p>]]></content>
+  </entry>
+  <entry>
+    <title>【彭博】金融杂谈：Anthropic 上市首日大涨</title>
+    <id>tag:dingdian.workers.dev,2026:news-bloomberg-money-stuff-anthropic-pops</id>
+    <updated>2026-11-19T19:10:01.000Z</updated>
+    <author><name>Bloomberg</name></author>
+    <link href="https://newsletter-feed.dingdian.workers.dev/curated"/>
+    <content type="html"><![CDATA[<p><strong>来源：</strong>Bloomberg</p><p><strong>原文标题：</strong>【Bloomberg】Money Stuff: Anthropic Pops</p><p><strong>入选方向：</strong>8、10</p><p><strong>入选理由：</strong>Anthropic上市首日表现与指数纳入逻辑：IPO募资约1070亿美元、定价83美元、完全稀释市值约1.5万亿美元，首家上市的前沿AI实验室；11-18那篇讲认购注水，这篇是上市日跟进，丁总正在跟Anthropic IPO口播稿。</p><hr/><p>文章指出，以市场权重为基准的投资理念意味着，少持或不持有重要股票同样存在跑输市场的风险，因此即使人工智能企业估值高度不确定，投资者仍可能认为必须配置。文中称，一家前沿人工智能模型开发商以约１．５万亿美元估值上市，融资约１０７０亿美元，首日开盘较发行价上涨约３４％，随后涨幅回落至约１５％。热门新股发行中，投资者往往夸大申购数量，而承销商让部分机构完全拿不到配售，也为上市后的交易保留了买盘。文章还以预付能源交易为例，说明地方政府可利用免税市政债与应税企业债之间的利差补贴天然气采购，并通过以企业债担保付款争取长期供气折扣。</p>]]></content>
+  </entry>
+  <entry>
+    <title>【莱尼通讯】Lovable 为何增长如此之快？</title>
+    <id>tag:dingdian.workers.dev,2026:news-lenny-s-newsletter-how-did-lovable-grow-so-fast</id>
+    <updated>2026-11-19T21:38:10.000Z</updated>
+    <author><name>Lenny's Newsletter</name></author>
+    <link href="https://www.elenaverna.com/p/how-did-lovable-grow-so-fast"/>
+    <content type="html"><![CDATA[<p><strong>来源：</strong>Lenny's Newsletter</p><p><strong>原文标题：</strong>【Lenny's Newsletter】How did Lovable grow so fast?</p><p><strong>入选方向：</strong>2、3、10</p><p><strong>入选理由：</strong>Lovable两年冲到6亿美元ARR，Elena Verna提出Whitewater增长框架：快水造就增长、木筏决定能接住多少；AI时代增长打法，对丁总做产品与自媒体都有参照。</p><p><strong>原文链接：</strong><a href="https://www.elenaverna.com/p/how-did-lovable-grow-so-fast">https://www.elenaverna.com/p/how-did-lovable-grow-so-fast</a></p><hr/><p>原文链接：https://www.elenaverna.com/p/how-did-lovable-grow-so-fast
+翻译模型：cheap-ai relay（内置备用 relay2/gpt-6.1-sol，主中转故障时自动切换；未用 translate.googleapis.com，未用 Muse 额度）</p><p>Lovable成立两年，年度经常性收入已超过6亿美元，每周新增120万个项目，其平台构建的应用每月访问量超过10亿次，但这种爆发式增长并非来自某个增长秘诀或个人能力。作者提出“激流增长框架”：高速扩张的市场如同湍急河流，决定企业增长的潜力，而企业自身的产品与组织能力决定能承接多少机会。要在激流中生存，企业需要用户真正喜爱并愿意推荐的核心产品、相互信任的文化、快速交付能力，以及承担繁琐工作的人工智能自动化。团队还应保持精简灵活，通过有个人特色的社交传播扩大影响，并以关键战略押注把握方向，而不是照搬固定的增长套路。</p>]]></content>
   </entry>
 </feed>
